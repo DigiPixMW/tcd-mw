@@ -42,7 +42,7 @@
     <div class="container d-flex align-items-center">
 
       <!--<h1 class="logo me-auto"><a href="index.html">Tyra's Conquest Dealership</a></h1>-->
-      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- Uncomment above if you prefer to use a text logo -->
       <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
 
       <nav id="navbar" class="navbar">
@@ -53,7 +53,7 @@
           <!--<li><a class="nav-link   scrollto" href="#portfolio">Portfolio</a></li>-->
           <li class="dropdown"><a href="#portfolio"><span>Portfolio</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="#">Floor Materials</a></li>
+              <li><a href="#">Artificial Turf</a></li>
               <li><a href="#">Bus Transportation Services</a></li>
               <li><a href="#">Paper Supplies</a></li>
               <li><a href="#">Wines and Alcoholic Beverages</a></li>
@@ -67,33 +67,67 @@
     </div>
   </header><!-- End Header -->
 
-  <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex align-items-center">
+   <!-- ======= Hero Section ======= -->
+   <section id="hero">
+    <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
 
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
-          <h1>TYRA'S CONQUEST DEALERSHIP</h1>
-          <h2>Better Solutions For Your Business (Do you have a slogan?)</h2>
-          <!--<div class="d-flex justify-content-center justify-content-lg-start">
-            <a href="#about" class="btn-get-started scrollto">Get Started</a>
-          </div>-->
+      <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+      <div class="carousel-inner" role="listbox">
+
+        <!-- Slide 1 -->
+        <div class="carousel-item active" style="background-image: url(assets/img/slider/slide-2.jpg)">
+          <div class="carousel-container">
+            <div class="container">
+              <h2 class="animate__animated animate__fadeInDown">Welcome to <span>Tyra's Conquest Dealership</span></h2>
+              <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+              <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+            </div>
+          </div>
         </div>
-        <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
-          <img src="assets/img/" class="img-fluid animated" alt="">
+
+        <!-- Slide 2 -->
+        <div class="carousel-item" style="background-image: url(assets/img//slider/slide-2.jpg)">
+          <div class="carousel-container">
+            <div class="container">
+              <h2 class="animate__animated animate__fadeInDown">Lorem Ipsum Dolor</h2>
+              <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+              <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+            </div>
+          </div>
         </div>
+
+        <!-- Slide 3 -->
+        <div class="carousel-item" style="background-image: url(assets/img//slider/slide-3.jpg)">
+          <div class="carousel-container">
+            <div class="container">
+              <h2 class="animate__animated animate__fadeInDown">Sequi ea ut et est quaerat</h2>
+              <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+              <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+            </div>
+          </div>
+        </div>
+
       </div>
-    </div>
 
+      <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+      </a>
+
+      <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+      </a>
+
+    </div>
   </section><!-- End Hero -->
 
   <main id="main">
 
-    <!-- ======= Cliens Section ======= -->
+    <!-- ======= Cliens Section ======= --
     <section id="cliens" class="cliens section-bg">
       <div class="container">
 
-       <!-- <div class="row" data-aos="zoom-in">
+       -- <div class="row" data-aos="zoom-in">
 
           <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
             <img src="assets/img/clients/client-1.png" class="img-fluid" alt="">
@@ -119,10 +153,10 @@
             <img src="assets/img/clients/client-6.png" class="img-fluid" alt="">
           </div>
 
-        </div> -->
+        </div> --
 
       </div>
-    </section><!-- End Cliens Section -->
+    </section><-- End Cliens Section -->
 
     <!-- ======= About Us Section ======= -->
     <section id="about" class="about">
@@ -138,9 +172,12 @@
               We are the best suppliers and installers of floor materials, and we also supply:
             </p>
             <ul>
-              <li><i class="ri-check-double-line"></i> Bus Transportation Services</li>
-              <li><i class="ri-check-double-line"></i> A4 Plain Papers</li>
-              <li><i class="ri-check-double-line"></i> Winery Suppliers</li>
+              <li><i class="ri-check-double-line"></i> Artificial Turf</li>
+              <li><i class="ri-check-double-line"></i> Interlocking Rubber Mats</li>
+              <li><i class="ri-check-double-line"></i> Carpet tiles</li>
+              <li><i class="ri-check-double-line"></i> Wall to Wall Carpets</li>
+              <li><i class="ri-check-double-line"></i> Polyceinic Tiles</li>
+              <li><i class="ri-check-double-line"></i> Screeding and Decking</li>
             </ul>
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0">
@@ -168,35 +205,61 @@
           <div class="col-xl-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
             <div class="icon-box">
               <div class="icon"><i class="bx bxl-dribbble"></i></div>
-              <h4><a href="">Floor Materials</a></h4>
-              <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+              <h4><a href="">Artificial Turf</a></h4>
+              <p>Save water while transforming your outdoor space with our lush and vibrant artificial turf solutions. Say goodbye to the hassle of maintenance and hello to a perfectly manicured lawn all year round.<!-- Our high-quality artificial turf not only enhances the beauty of your landscape but also saves water, making it an eco-friendly choice. Whether it's for residential or commercial use, enjoy the benefits of a green lawn without the environmental impact.--></p>
             </div>
           </div>
 
           <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-file"></i></div>
-              <h4><a href="">Bus Transportation Services</a></h4>
-              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+              <h4><a href="">Interlocking Rubber Mats</a></h4>
+              <p>Step into safety and comfort with our durable interlocking rubber mats, ideal for a wide range of environments including factories, garages, warehouses, bars, offices, gyms, playgrounds, and industrial settings.<!-- Designed to provide superior traction and shock absorption, these mats offer reliable protection against slips, falls, and fatigue. Create a safe and stylish environment with our easy-to-install interlocking rubber mats, ensuring peace of mind in any space.--></p>
             </div>
           </div>
 
           <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="300">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-tachometer"></i></div>
-              <h4><a href="">Paper Supplies</a></h4>
-              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+              <h4><a href="">Carpet Tiles</a></h4>
+              <p>Elevate your interior design with our versatile carpet tiles. Offering a wide range of colors, patterns, and textures, our carpet tiles allow you to unleash your creativity and customize your space effortlessly.<!-- Enjoy the convenience of easy installation and maintenance without compromising on style--></p>
             </div>
           </div>
 
           <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="400">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-layer"></i></div>
-              <h4><a href="">Wines and Alcoholic Beverages</a></h4>
-              <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+              <h4><a href="">Wall to Wall Shaggy Carpets</a></h4>
+              <p>Indulge in luxury with our plush wall-to-wall shaggy carpets, perfect for a variety of settings including hotels, churches, offices, homes, conference rooms, and commercial spaces. <!-- Experience unparalleled softness and comfort underfoot as our premium carpets add a touch of sophistication to any interior. Elevate your space with our exquisite wall-to-wall shaggy carpets, creating an inviting atmosphere for guests and occupants alike.--></p>
             </div>
           </div>
 
+          <div><p></p></div>
+
+          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-file"></i></div>
+              <h4><a href="">Porcelain, Wooden &  Vinyl Tiles</a></h4>
+              <p>Revamp your space with our elegant and durable Porcelain tiles. Perfect for high-traffic areas, Porcelain tiles are resistant to stains, scratches, and moisture, making them an ideal choice for kitchens, bathrooms, retail spaces, and more. <!-- Available in a variety of colours and designs, including the option for wooden tiles, these versatile tiles offer durability without compromising on aesthetics. Elevate your flooring with our premium Porcelain tiles and enjoy a perfect fusion of style and functionality that withstands the test of time--></p>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="300">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-tachometer"></i></div>
+              <h4><a href="">Screeding</a></h4>
+              <p>Achieve smooth and level floors with our professional screeding services. Whether you're renovating a residential property or constructing a commercial building, our skilled team utilizes industry-leading techniques to ensure precise and durable screeding results. <!-- Trust us to deliver a flawless foundation for your flooring needs.--></p>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="400">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-layer"></i></div>
+              <h4><a href="">Decking</a></h4>
+              <p>Create an outdoor oasis with our premium decking solutions. Crafted from high-quality materials such as hardwood or composite, our decking options combine beauty and functionality for years of enjoyment.<!-- From intimate balconies to sprawling patios, let us design and install the perfect deck for your outdoor living space.--></p>
+            </div>
+          </div>
+          
         </div>
 
       </div>
@@ -452,7 +515,7 @@
           <div class="col-lg-4 col-md-6 footer-links">
             <h4>Our Services</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Floor Materials</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Artificial Turf</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Bus Transportation Services</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Paper Supplies</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Wines and Alcoholic Beverages</a></li>
@@ -498,6 +561,7 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script src="assets/js/app.js"></script>
 
 </body>
 
